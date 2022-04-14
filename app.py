@@ -1,4 +1,5 @@
 
+
 def main():
     from module import Person, Wizard, HealthPotion
     import numpy as np
