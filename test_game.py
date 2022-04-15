@@ -1,5 +1,5 @@
 from module import Person, Wizard, HealthPotion
-from app import main
+from main import main
 
 def test_person_initial_amount():
     person = Person('user1')
