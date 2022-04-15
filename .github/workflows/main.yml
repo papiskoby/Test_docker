@@ -4,7 +4,7 @@ name: pypi
 on: [push]
 jobs:
   test_build_run:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu latest
     steps:
       - uses: actions/checkout@v2
       - name: docker login
