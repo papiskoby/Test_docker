@@ -20,10 +20,8 @@ jobs:
         run: 
           docker build -t test .     
       - name: run docker image
-        run: 
-          docker run test
-      - name: build docker image
+        run: docker run test
       - name: docker tag
         run:  docker tag test:latest papiskoby/pipy:pipeline
       - name: docker push
-        run:  docker push
+        run:  docker push papiskoby/pipy:pipeline
