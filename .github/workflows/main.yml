@@ -3,8 +3,8 @@
 name: pypi
 on: [push]
 jobs:
-  name of jobs:
-    run-on: ubuntu-latest
+  test_build_run:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: docker login
